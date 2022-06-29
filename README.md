@@ -4,6 +4,8 @@
     <p>Provide here short description, what the project does</p>
 </div>
 
+> Select poetry or pipenv
+
 Long description goes here
 
 ## Table of content
