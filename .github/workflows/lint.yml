@@ -26,4 +26,3 @@ jobs:
             exclude: "python_template/__init__.py"
             max-line-length: "100"
             path: "python_template"
-            plugins: "flake8-bugbear==22.1.11 flake8-black"
