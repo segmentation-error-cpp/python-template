@@ -1,4 +1,4 @@
-name: ci
+name: tests
 
 on:
   push:
@@ -21,7 +21,9 @@ jobs:
     - name: Pipenv and dependecies
       uses: VaultVulp/action-pipenv@v2.0.1
       with:
-        command: pipenv install
-    - name: Test with pytest
-      run: |
-        pipenv run test
+        command: install -d
+    - name: Tests
+      uses: VaultVulp/action-pipenv@v2.0.1
+      with:
+        command: run test
+
