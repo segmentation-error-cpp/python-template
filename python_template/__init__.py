@@ -2,4 +2,4 @@
 # Example project
 """
 
-from .app import *
+from .app import app
