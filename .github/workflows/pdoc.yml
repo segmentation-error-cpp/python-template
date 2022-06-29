@@ -21,11 +21,11 @@ jobs:
       - name: Pipenv and dependecies
         uses: VaultVulp/action-pipenv@v2.0.1
         with:
-            command: install -d pdoc -o docs/ ...
+            command: install -d
       - name: Pipenv and dependecies
         uses: VaultVulp/action-pipenv@v2.0.1
         with:
-            command: pdoc -o docs/ python_template/
+            command: run pdoc -o docs/ python_template/
 
       - run: tar --directory docs/ -hcf artifact.tar .
       - uses: actions/upload-artifact@v3
