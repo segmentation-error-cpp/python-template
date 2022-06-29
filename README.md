@@ -2,6 +2,15 @@
     <img src="docs/assets/Logo.png" height="100px">
     <h1>Project name</h1>
     <p>Provide here short description, what the project does</p>
+    <a href="https://github.com/segmentation-error-cpp/python-template/actions/workflows/pdoc.yml">
+        <img src="https://github.com/segmentation-error-cpp/python-template/actions/workflows/pdoc.yml/badge.svg">
+    </a>
+    <a href="https://github.com/segmentation-error-cpp/python-template/actions/workflows/test_ci.yml">
+        <img src="https://github.com/segmentation-error-cpp/python-template/actions/workflows/test_ci.yml/badge.svg">
+    </a>
+    <a href="https://github.com/segmentation-error-cpp/python-template/actions/workflows/lint.yml">
+        <img src="https://github.com/segmentation-error-cpp/python-template/actions/workflows/lint.yml/badge.svg">
+    </a>
 </div>
 
 > Select poetry or pipenv
@@ -23,9 +32,9 @@ Long description goes here
 ## Requirements
 > Table, describing what package requires and under what License, it destributes
 
-| name | version | description |
-| ---- | ------- | ----------- |
-| Name | v1      | For me?     |
+| name   | version | description                      |
+| ------ | ------- | -------------------------------- |
+| Python | 3.7.0   | Main implementation language     |
 
 ## Description
 > Place here more description about project
@@ -41,7 +50,7 @@ Long description goes here
 
 | Name              | Version | Description                     | Requirements |
 | ----------------- | ------- | ------------------------------- | ------------ |
-| Example Package   | v0.0.1  | Example package, for override   | 🟩/🟨/🟥      |
+| Poetry/Pipenv     | Any     | Package manager                 | 🟩           |
 
 ### Features
 > Required. Place here features in table style or sub headers
